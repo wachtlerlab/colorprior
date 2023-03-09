@@ -1,0 +1,77 @@
+20210428T0937:
+  session_count: 1
+  session_idx: 20210428T0937
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_a/noise_LL_135.yaml
+  data_file: data/noise_data/s03/raw_data/s03_20210428T0937.yaml
+  status: completed
+20210428T0941:
+  session_count: 2
+  session_idx: 20210428T0941
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_a/noise_LL_135.yaml
+  data_file: data/noise_data/s03/raw_data/s03_20210428T0941.yaml
+  status: completed
+20210428T0943:
+  session_count: 3
+  session_idx: 20210428T0943
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_a/noise_LL_135.yaml
+  data_file: data/noise_data/s03/raw_data/s03_20210428T0943.yaml
+  status: completed
+20210428T0946:
+  session_count: 4
+  session_idx: 20210428T0946
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_a/noise_LL_135.yaml
+  data_file: data/noise_data/s03/raw_data/s03_20210428T0946.yaml
+  status: completed
+20210429T1237:
+  session_count: 5
+  session_idx: 20210429T1237
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_s/s03/s03_noise_HH_135.yaml
+  data_file: data/noise_data/s03/raw_data/s03_20210429T1237.yaml
+  status: escape
+20210430T0929:
+  session_count: 6
+  session_idx: 20210430T0929
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_s/s03/s03_noise_HH_135.yaml
+  data_file: data/noise_data/s03/raw_data/s03_20210430T0929.yaml
+  status: practice
+20210430T0931:
+  session_count: 7
+  session_idx: 20210430T0931
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_s/s03/s03_noise_HH_135.yaml
+  data_file: data/noise_data/s03/raw_data/s03_20210430T0931.yaml
+  status: completed
+20210430T0932:
+  session_count: 8
+  session_idx: 20210430T0932
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_s/s03/s03_noise_HH_135.yaml
+  data_file: data/noise_data/s03/raw_data/s03_20210430T0932.yaml
+  status: completed
+20210430T0934:
+  session_count: 9
+  session_idx: 20210430T0934
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_s/s03/s03_noise_HH_135.yaml
+  data_file: data/noise_data/s03/raw_data/s03_20210430T0934.yaml
+  status: completed
+20210430T0935:
+  session_count: 10
+  session_idx: 20210430T0935
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_s/s03/s03_noise_HH_135.yaml
+  data_file: data/noise_data/s03/raw_data/s03_20210430T0935.yaml
+  status: completed
+20210430T0937:
+  session_count: 11
+  session_idx: 20210430T0937
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_s/s03/s03_noise_HH_135.yaml
+  data_file: data/noise_data/s03/raw_data/s03_20210430T0937.yaml
+  status: completed

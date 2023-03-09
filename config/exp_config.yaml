@@ -1,0 +1,35 @@
+monitor_settings_file: config/resources/10bit/monitor_settings_10bit.yaml
+calibration_file: config/resources/10bit/calibration_20210406.json
+subject_isolum_directory: config/subjects/colorspace/10bit
+window_units: deg
+depthBits: 10
+chromaticity: 0.12
+sscale: 2.6
+patch_nmb: 16
+patch_size: 0.75
+bar_size:
+- 12
+- 1.5
+bar_xlim:
+- -6.0
+- 6.0
+bar_ypos: 5.0
+field_size:
+- 3.0
+- 3.0
+standard_xlim:
+- -4.5
+- -1.5
+standard_ylim:
+- -1.5
+- 1.5
+test_xlim:
+- 4.5
+- 1.5
+test_ylim:
+- -1.5
+- 1.5
+trial_nmb: 30
+warmup_nmb: 2
+trial_dur: 0.5
+text_height: 0.8

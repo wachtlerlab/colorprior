@@ -1,0 +1,44 @@
+stimulus_0:
+  label: hue_35p
+  stairDirection: 1.0
+  noise_condition: L-L
+  standard: 135
+  width: 0.0
+  hue_range:
+  - 105
+  - 165
+  hue_num: 45
+  stairType: simple
+  stepType: lin
+  startVal: 5.0
+  minVal: 0.5
+  maxVal: 20.0
+  nUp: 1
+  nDown: 2
+  stepSizes:
+  - 2.0
+  - 1.0
+  - 0.5
+  nReversals: 3
+stimulus_1:
+  label: hue_35m
+  stairDirection: -1.0
+  noise_condition: L-L
+  standard: 135
+  width: 0.0
+  hue_range:
+  - 105
+  - 165
+  hue_num: 45
+  stairType: simple
+  stepType: lin
+  startVal: 5.0
+  minVal: 0.5
+  maxVal: 20.0
+  nUp: 1
+  nDown: 2
+  stepSizes:
+    - 2.0
+    - 1.0
+    - 0.5
+  nReversals: 3

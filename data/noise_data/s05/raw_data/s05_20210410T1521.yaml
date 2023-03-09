@@ -1,0 +1,1169 @@
+time: 20210410T1521
+cfg_file: config/exp_config.yaml
+par_file: config/par_a/noise_LL_135.yaml
+monitor_settings_file: config/resources/10bit/monitor_settings_10bit.yaml
+calibration_file: config/resources/10bit/calibration_20210406.json
+subject_isolum_directory: config/subjects/colorspace/10bit
+window_units: deg
+depthBits: 10
+chromaticity: 0.12
+sscale: 2.6
+patch_nmb: 16
+patch_size: 1.0
+bar_size:
+- 16.0
+- 2.0
+bar_xlim:
+- -8.0
+- 8.0
+bar_ypos: 7.0
+field_size:
+- 4.0
+- 4.0
+standard_xlim:
+- -6.0
+- -2.0
+standard_ylim:
+- -2.0
+- 2.0
+test_xlim:
+- 6.0
+- 2.0
+test_ylim:
+- -2.0
+- 2.0
+trial_nmb: 30
+warmup_nmb: 2
+trial_dur: 0.5
+stimulus_0:
+  label: hue_35p
+  stairDirection: 1.0
+  noise_condition: L-L
+  standard: 135
+  width: 0.0
+  hue_range:
+  - 105
+  - 165
+  hue_num: 45
+  stairType: simple
+  stepType: lin
+  startVal: 5.0
+  minVal: 0.5
+  maxVal: 20.0
+  nUp: 1
+  nDown: 2
+  stepSizes:
+  - 2.0
+  - 1.0
+  - 0.5
+  nReversals: 3
+stimulus_1:
+  label: hue_35m
+  stairDirection: -1.0
+  noise_condition: L-L
+  standard: 135
+  width: 0.0
+  hue_range:
+  - 105
+  - 165
+  hue_num: 45
+  stairType: simple
+  stepType: lin
+  startVal: 5.0
+  minVal: 0.5
+  maxVal: 20.0
+  nUp: 1
+  nDown: 2
+  stepSizes:
+  - 2.0
+  - 1.0
+  - 0.5
+  nReversals: 3
+warmup_1:
+  trial_index: 1
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 144.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: 9.0
+  actual_intensity: 9.0
+  press_key: down
+  judge: 1
+  react_time: 1.2197961807250977
+  trial_time_stamp: 1618060871.5054204
+warmup_2:
+  trial_index: 2
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 127.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: -8.0
+  actual_intensity: -8.0
+  press_key: up
+  judge: 1
+  react_time: 0.8183848857879639
+  trial_time_stamp: 1618060880.115542
+warmup_3:
+  trial_index: 3
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 144.0
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: 9.0
+  actual_intensity: 9.0
+  press_key: up
+  judge: 1
+  react_time: 1.3330864906311035
+  trial_time_stamp: 1618060883.625323
+warmup_4:
+  trial_index: 4
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 127.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: -8.0
+  actual_intensity: -8.0
+  press_key: up
+  judge: 1
+  react_time: 1.2376518249511719
+  trial_time_stamp: 1618060886.7929456
+trial_1:
+  trial_index: 5
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 140.0
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: 5.0
+  actual_intensity: 5.0
+  press_key: up
+  judge: 1
+  react_time: 1.5564954280853271
+  trial_time_stamp: 1618060889.6501582
+trial_2:
+  trial_index: 6
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 130.0
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: -5.0
+  actual_intensity: -5.0
+  press_key: down
+  judge: 1
+  react_time: 1.3672735691070557
+  trial_time_stamp: 1618060892.7593083
+trial_3:
+  trial_index: 7
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 132.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: -3.0
+  actual_intensity: -3.0
+  press_key: up
+  judge: 1
+  react_time: 1.7579429149627686
+  trial_time_stamp: 1618060896.2164414
+trial_4:
+  trial_index: 8
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 138.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: 3.0
+  actual_intensity: 3.0
+  press_key: down
+  judge: 1
+  react_time: 1.6465568542480469
+  trial_time_stamp: 1618060899.6880941
+trial_5:
+  trial_index: 9
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 136.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: 1.0
+  actual_intensity: 1.0
+  press_key: up
+  judge: 0
+  react_time: 1.82236909866333
+  trial_time_stamp: 1618060903.0399122
+trial_6:
+  trial_index: 10
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 134.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: -1.0
+  actual_intensity: -1.0
+  press_key: up
+  judge: 1
+  react_time: 1.3744118213653564
+  trial_time_stamp: 1618060906.7122877
+trial_7:
+  trial_index: 11
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 137.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: 2.0
+  actual_intensity: 2.0
+  press_key: up
+  judge: 0
+  react_time: 1.4943177700042725
+  trial_time_stamp: 1618060909.7443964
+trial_8:
+  trial_index: 12
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 134.5
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: -0.5
+  actual_intensity: -0.4
+  press_key: down
+  judge: 0
+  react_time: 1.7022697925567627
+  trial_time_stamp: 1618060912.8170717
+trial_9:
+  trial_index: 13
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 138.0
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: 3.0
+  actual_intensity: 3.0
+  press_key: up
+  judge: 1
+  react_time: 4.590871572494507
+  trial_time_stamp: 1618060916.1039376
+trial_10:
+  trial_index: 14
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 133.5
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: -1.5
+  actual_intensity: -1.4
+  press_key: up
+  judge: 0
+  react_time: 1.3826491832733154
+  trial_time_stamp: 1618060922.7124884
+trial_11:
+  trial_index: 15
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 138.0
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: 3.0
+  actual_intensity: 3.0
+  press_key: down
+  judge: 0
+  react_time: 1.7025439739227295
+  trial_time_stamp: 1618060925.6088157
+trial_12:
+  trial_index: 16
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 132.5
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: -2.5
+  actual_intensity: -2.4
+  press_key: up
+  judge: 0
+  react_time: 1.5019733905792236
+  trial_time_stamp: 1618060928.9131498
+trial_13:
+  trial_index: 17
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 131.5
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: -3.5
+  actual_intensity: -3.4
+  press_key: down
+  judge: 0
+  react_time: 1.5670192241668701
+  trial_time_stamp: 1618060931.9923725
+trial_14:
+  trial_index: 18
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 139.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: 4.0
+  actual_intensity: 4.0
+  press_key: up
+  judge: 0
+  react_time: 1.6862716674804688
+  trial_time_stamp: 1618060935.2326555
+trial_15:
+  trial_index: 19
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 130.5
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: -4.5
+  actual_intensity: -4.4
+  press_key: up
+  judge: 1
+  react_time: 1.285724401473999
+  trial_time_stamp: 1618060939.2974694
+trial_16:
+  trial_index: 20
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 140.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: 5.0
+  actual_intensity: 5.0
+  press_key: down
+  judge: 1
+  react_time: 1.293722152709961
+  trial_time_stamp: 1618060942.185369
+trial_17:
+  trial_index: 21
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 130.5
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: -4.5
+  actual_intensity: -4.4
+  press_key: up
+  judge: 0
+  react_time: 1.5977373123168945
+  trial_time_stamp: 1618060945.0336385
+trial_18:
+  trial_index: 22
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 140.0
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: 5.0
+  actual_intensity: 5.0
+  press_key: up
+  judge: 1
+  react_time: 1.286186695098877
+  trial_time_stamp: 1618060948.6094475
+trial_19:
+  trial_index: 23
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 139.5
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: 4.5
+  actual_intensity: 4.6
+  press_key: down
+  judge: 0
+  react_time: 1.6058647632598877
+  trial_time_stamp: 1618060951.489613
+trial_20:
+  trial_index: 24
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 129.5
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: -5.5
+  actual_intensity: -5.4
+  press_key: down
+  judge: 1
+  react_time: 1.966616153717041
+  trial_time_stamp: 1618060954.625033
+trial_21:
+  trial_index: 25
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 129.5
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: -5.5
+  actual_intensity: -5.4
+  press_key: up
+  judge: 0
+  react_time: 1.3503904342651367
+  trial_time_stamp: 1618060958.2090056
+trial_22:
+  trial_index: 26
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 140.0
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: 5.0
+  actual_intensity: 5.0
+  press_key: up
+  judge: 1
+  react_time: 1.3820457458496094
+  trial_time_stamp: 1618060961.073538
+trial_23:
+  trial_index: 27
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 140.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: 5.0
+  actual_intensity: 5.0
+  press_key: up
+  judge: 0
+  react_time: 2.8142037391662598
+  trial_time_stamp: 1618060963.9937484
+trial_24:
+  trial_index: 28
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 128.5
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: -6.5
+  actual_intensity: -6.4
+  press_key: up
+  judge: 1
+  react_time: 1.7107510566711426
+  trial_time_stamp: 1618060968.288974
+trial_25:
+  trial_index: 29
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 128.5
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: -6.5
+  actual_intensity: -6.4
+  press_key: down
+  judge: 1
+  react_time: 1.4213285446166992
+  trial_time_stamp: 1618060971.4663033
+trial_26:
+  trial_index: 30
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 140.5
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: 5.5
+  actual_intensity: 5.6
+  press_key: up
+  judge: 1
+  react_time: 1.3661596775054932
+  trial_time_stamp: 1618060974.489692
+trial_27:
+  trial_index: 31
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 129.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: -6.0
+  actual_intensity: -6.0
+  press_key: up
+  judge: 1
+  react_time: 1.2703900337219238
+  trial_time_stamp: 1618060977.37743
+trial_28:
+  trial_index: 32
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 140.5
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: 5.5
+  actual_intensity: 5.6
+  press_key: up
+  judge: 0
+  react_time: 1.6146259307861328
+  trial_time_stamp: 1618060980.169371
+trial_29:
+  trial_index: 33
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 141.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: 6.0
+  actual_intensity: 6.0
+  press_key: down
+  judge: 1
+  react_time: 1.4384307861328125
+  trial_time_stamp: 1618060983.3055184
+trial_30:
+  trial_index: 34
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 129.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: -6.0
+  actual_intensity: -6.0
+  press_key: up
+  judge: 1
+  react_time: 1.6777448654174805
+  trial_time_stamp: 1618060986.25822
+trial_31:
+  trial_index: 35
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 129.5
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: -5.5
+  actual_intensity: -5.4
+  press_key: down
+  judge: 0
+  react_time: 1.3261351585388184
+  trial_time_stamp: 1618060989.4741168
+trial_32:
+  trial_index: 36
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 141.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: 6.0
+  actual_intensity: 6.0
+  press_key: down
+  judge: 1
+  react_time: 2.5580732822418213
+  trial_time_stamp: 1618060992.4101474
+trial_33:
+  trial_index: 37
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 140.5
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: 5.5
+  actual_intensity: 5.6
+  press_key: up
+  judge: 0
+  react_time: 1.4859278202056885
+  trial_time_stamp: 1618060996.5781825
+trial_34:
+  trial_index: 38
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 129.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: -6.0
+  actual_intensity: -6.0
+  press_key: down
+  judge: 0
+  react_time: 1.5744903087615967
+  trial_time_stamp: 1618060999.5860536
+trial_35:
+  trial_index: 39
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 141.0
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: 6.0
+  actual_intensity: 6.0
+  press_key: up
+  judge: 1
+  react_time: 1.2707579135894775
+  trial_time_stamp: 1618061002.7779207
+trial_36:
+  trial_index: 40
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 128.5
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: -6.5
+  actual_intensity: -6.4
+  press_key: down
+  judge: 1
+  react_time: 1.2457363605499268
+  trial_time_stamp: 1618061005.642782
+trial_37:
+  trial_index: 41
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 128.5
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: -6.5
+  actual_intensity: -6.4
+  press_key: down
+  judge: 1
+  react_time: 1.2697665691375732
+  trial_time_stamp: 1618061008.434753
+trial_38:
+  trial_index: 42
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 141.0
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: 6.0
+  actual_intensity: 6.0
+  press_key: down
+  judge: 0
+  react_time: 2.8144514560699463
+  trial_time_stamp: 1618061011.226054
+trial_39:
+  trial_index: 43
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 129.0
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: -6.0
+  actual_intensity: -6.0
+  press_key: down
+  judge: 1
+  react_time: 1.6300954818725586
+  trial_time_stamp: 1618061015.5222955
+trial_40:
+  trial_index: 44
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 141.5
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: 6.5
+  actual_intensity: 6.6
+  press_key: up
+  judge: 1
+  react_time: 1.294572353363037
+  trial_time_stamp: 1618061018.6182249
+trial_41:
+  trial_index: 45
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 141.5
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: 6.5
+  actual_intensity: 6.6
+  press_key: up
+  judge: 1
+  react_time: 1.6223855018615723
+  trial_time_stamp: 1618061021.3860774
+trial_42:
+  trial_index: 46
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 129.0
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: -6.0
+  actual_intensity: -6.0
+  press_key: down
+  judge: 1
+  react_time: 1.3177688121795654
+  trial_time_stamp: 1618061024.506948
+trial_43:
+  trial_index: 47
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 129.5
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: -5.5
+  actual_intensity: -5.4
+  press_key: down
+  judge: 1
+  react_time: 1.2619402408599854
+  trial_time_stamp: 1618061027.482781
+trial_44:
+  trial_index: 48
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 141.0
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: 6.0
+  actual_intensity: 6.0
+  press_key: down
+  judge: 0
+  react_time: 1.390519142150879
+  trial_time_stamp: 1618061030.242207
+trial_45:
+  trial_index: 49
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 141.5
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: 6.5
+  actual_intensity: 6.6
+  press_key: up
+  judge: 1
+  react_time: 1.3023245334625244
+  trial_time_stamp: 1618061033.5945683
+trial_46:
+  trial_index: 50
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 129.5
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: -5.5
+  actual_intensity: -5.4
+  press_key: down
+  judge: 1
+  react_time: 1.3430578708648682
+  trial_time_stamp: 1618061036.441887
+trial_47:
+  trial_index: 51
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 141.5
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: 6.5
+  actual_intensity: 6.6
+  press_key: down
+  judge: 1
+  react_time: 1.3338706493377686
+  trial_time_stamp: 1618061039.3629708
+trial_48:
+  trial_index: 52
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 130.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: -5.0
+  actual_intensity: -5.0
+  press_key: down
+  judge: 0
+  react_time: 1.4702122211456299
+  trial_time_stamp: 1618061042.2906768
+trial_49:
+  trial_index: 53
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 129.5
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: -5.5
+  actual_intensity: -5.4
+  press_key: down
+  judge: 0
+  react_time: 1.2862083911895752
+  trial_time_stamp: 1618061045.2428677
+trial_50:
+  trial_index: 54
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 141.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: 6.0
+  actual_intensity: 6.0
+  press_key: down
+  judge: 1
+  react_time: 1.3903248310089111
+  trial_time_stamp: 1618061048.0670083
+trial_51:
+  trial_index: 55
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 129.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: -6.0
+  actual_intensity: -6.0
+  press_key: up
+  judge: 1
+  react_time: 1.190213918685913
+  trial_time_stamp: 1618061051.0190706
+trial_52:
+  trial_index: 56
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 141.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: 6.0
+  actual_intensity: 6.0
+  press_key: down
+  judge: 1
+  react_time: 1.357743740081787
+  trial_time_stamp: 1618061053.7394502
+trial_53:
+  trial_index: 57
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 140.5
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: 5.5
+  actual_intensity: 5.6
+  press_key: down
+  judge: 1
+  react_time: 1.2462222576141357
+  trial_time_stamp: 1618061056.6830995
+trial_54:
+  trial_index: 58
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 129.0
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: -6.0
+  actual_intensity: -6.0
+  press_key: up
+  judge: 1
+  react_time: 1.558835506439209
+  trial_time_stamp: 1618061059.4105973
+trial_55:
+  trial_index: 59
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 129.5
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: -5.5
+  actual_intensity: -5.4
+  press_key: up
+  judge: 0
+  react_time: 1.3024568557739258
+  trial_time_stamp: 1618061062.3869898
+trial_56:
+  trial_index: 60
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 140.5
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: 5.5
+  actual_intensity: 5.6
+  press_key: down
+  judge: 0
+  react_time: 1.5821940898895264
+  trial_time_stamp: 1618061065.203323
+trial_57:
+  trial_index: 61
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 129.0
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: -6.0
+  actual_intensity: -6.0
+  press_key: up
+  judge: 0
+  react_time: 1.3657293319702148
+  trial_time_stamp: 1618061068.339746
+trial_58:
+  trial_index: 62
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 141.0
+  standard_xlim:
+  - -6.0
+  - -2.0
+  test_xlim:
+  - 6.0
+  - 2.0
+  calculated_intensity: 6.0
+  actual_intensity: 6.0
+  press_key: down
+  judge: 0
+  react_time: 1.3582792282104492
+  trial_time_stamp: 1618061071.2194188
+trial_59:
+  trial_index: 63
+  stimulus: stimulus_0
+  standard_stim: 135.0
+  test_stim: 141.5
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: 6.5
+  actual_intensity: 6.6
+  press_key: down
+  judge: 1
+  react_time: 1.2302172183990479
+  trial_time_stamp: 1618061074.4272888
+trial_60:
+  trial_index: 64
+  stimulus: stimulus_1
+  standard_stim: 135.0
+  test_stim: 128.5
+  standard_xlim:
+  - 6.0
+  - 2.0
+  test_xlim:
+  - -6.0
+  - -2.0
+  calculated_intensity: -6.5
+  actual_intensity: -6.4
+  press_key: up
+  judge: 1
+  react_time: 1.334815263748169
+  trial_time_stamp: 1618061077.171088

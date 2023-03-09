@@ -1,0 +1,88 @@
+stimulus_0:
+  label: hue_3m
+  stairDirection: -1.0
+  noise_condition: H-H
+  standard: 112.5
+  width: 20.1
+  hue_range:
+  - 82.5
+  - 142.5
+  hue_num: 45
+  stairType: simple
+  stepType: lin
+  startVal: 5.0
+  minVal: 0.5
+  maxVal: 20.0
+  nUp: 1
+  nDown: 2
+  stepSizes:
+  - 2.0
+  - 1.0
+  - 0.5
+  nReversals: 2
+stimulus_1:
+  label: hue_7m
+  stairDirection: -1.0
+  noise_condition: H-H
+  standard: 292.5
+  width: 20.1
+  hue_range:
+  - 262.5
+  - 322.5
+  hue_num: 45
+  stairType: simple
+  stepType: lin
+  startVal: 5.0
+  minVal: 0.5
+  maxVal: 20.0
+  nUp: 1
+  nDown: 2
+  stepSizes:
+  - 2.0
+  - 1.0
+  - 0.5
+  nReversals: 2
+stimulus_2:
+  label: hue_3p
+  stairDirection: 1.0
+  noise_condition: H-H
+  standard: 112.5
+  width: 20.1
+  hue_range:
+  - 82.5
+  - 142.5
+  hue_num: 45
+  stairType: simple
+  stepType: lin
+  startVal: 5.0
+  minVal: 0.5
+  maxVal: 20.0
+  nUp: 1
+  nDown: 2
+  stepSizes:
+  - 2.0
+  - 1.0
+  - 0.5
+  nReversals: 2
+stimulus_3:
+  label: hue_7p
+  stairDirection: 1.0
+  noise_condition: H-H
+  standard: 292.5
+  width: 20.1
+  hue_range:
+  - 262.5
+  - 322.5
+  hue_num: 45
+  stairType: simple
+  stepType: lin
+  startVal: 5.0
+  minVal: 0.5
+  maxVal: 20.0
+  nUp: 1
+  nDown: 2
+  stepSizes:
+  - 2.0
+  - 1.0
+  - 0.5
+  nReversals: 2

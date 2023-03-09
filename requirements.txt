@@ -1,0 +1,15 @@
+numpy~=1.16.0
+PsychoPy~=2020.2.5
+PyYAML~=5.4.1
+XlsxWriter~=1.3.7
+scipy~=1.5.0
+scikit-learn~=0.24.1
+matplotlib~=3.3.4
+pandas~=1.1.5
+lmfit~=1.0.1
+bayesfit~=2.3
+pyiris~=1.0.0
+yaml~=0.2.5
+faker~=6.6.2
+sklearn~=0.0
+seaborn~=0.11.1

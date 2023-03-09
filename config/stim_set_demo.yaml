@@ -1,0 +1,118 @@
+# Reference documentation for naming parameter files
+# =================================================
+# Each set of stimuli are interleaved presented in one session (i.e. one parameter file)
+#
+# standard:   the hue angle being tested
+# hue_range:  the range of color bar reference
+
+set1:
+  set1_stim1:
+    label: hue_1
+    standard: 22.5
+    hue_range:
+      - -7.5
+      - 52.5
+  set1_stim2:
+    label: hue_5
+    standard: 202.5
+    hue_range:
+      - 172.5
+      - 232.5
+
+set2:
+  set2_stim1:
+    label: hue_3
+    standard: 112.5
+    hue_range:
+      - 82.5
+      - 142.5
+  set2_stim2:
+    label: hue_7
+    standard: 292.5
+    hue_range:
+      - 262.5
+      - 322.5
+
+set3:
+  set3_stim1:
+    label: hue_2
+    standard: 67.5
+    hue_range:
+      - 37.5
+      - 97.5
+  set3_stim2:
+    label: hue_6
+    standard: 247.5
+    hue_range:
+      - 217.5
+      - 277.5
+
+set4:
+  set4_stim1:
+    label: hue_4
+    standard: 157.5
+    hue_range:
+      - 127.5
+      - 187.5
+  set4_stim2:
+    label: hue_8
+    standard: 337.5
+    hue_range:
+      - 307.5
+      - 367.5
+
+set5:
+  set5_stim1:
+    label: hue_9
+    standard: 0.
+    hue_range:
+      - -30.
+      - 30.
+  set5_stim2:
+    label: hue_13
+    standard: 180.
+    hue_range:
+      - 150.
+      - 210.
+
+set6:
+  set6_stim1:
+    label: hue_11
+    standard: 90.
+    hue_range:
+      - 60.
+      - 120.
+  set6_stim2:
+    label: hue_15
+    standard: 270.
+    hue_range:
+      - 240.
+      - 300.
+
+set7:
+  set7_stim1:
+    label: hue_10
+    standard: 45.
+    hue_range:
+      - 15.
+      - 70.
+  set7_stim2:
+    label: hue_14
+    standard: 225.
+    hue_range:
+      - 195.
+      - 255.
+
+set8:
+  set8_stim1:
+    label: hue_12
+    standard: 135.
+    hue_range:
+      - 105.
+      - 165.
+  set8_stim2:
+    label: hue_16
+    standard: 315.
+    hue_range:
+      - 285.
+      - 345.

@@ -1,0 +1,126 @@
+20210506T1122:
+  session_count: 1
+  session_idx: 20210506T1122
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_a/noise_LL_135.yaml
+  data_file: data/noise_data/s06/raw_data/s06_20210506T1122.yaml
+  status: completed
+20210506T1126:
+  session_count: 2
+  session_idx: 20210506T1126
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_a/noise_LL_135.yaml
+  data_file: data/noise_data/s06/raw_data/s06_20210506T1126.yaml
+  status: completed
+20210506T1129:
+  session_count: 3
+  session_idx: 20210506T1129
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_a/noise_LL_135.yaml
+  data_file: data/noise_data/s06/raw_data/s06_20210506T1129.yaml
+  status: completed
+20210506T1132:
+  session_count: 4
+  session_idx: 20210506T1132
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_a/noise_LL_135.yaml
+  data_file: data/noise_data/s06/raw_data/s06_20210506T1132.yaml
+  status: completed
+20210506T1135:
+  session_count: 5
+  session_idx: 20210506T1135
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_a/noise_LL_135.yaml
+  data_file: data/noise_data/s06/raw_data/s06_20210506T1135.yaml
+  status: completed
+20210506T1211:
+  session_count: 6
+  session_idx: 20210506T1211
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_s/s06/s06_noise_HH_135.yaml
+  data_file: data/noise_data/s06/raw_data/s06_20210506T1211.yaml
+  status: practice
+20210506T1214:
+  session_count: 7
+  session_idx: 20210506T1214
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_s/s06/s06_noise_HH_135.yaml
+  data_file: data/noise_data/s06/raw_data/s06_20210506T1214.yaml
+  status: completed
+20210506T1221:
+  session_count: 8
+  session_idx: 20210506T1221
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_a/noise_LL_135.yaml
+  data_file: data/noise_data/s06/raw_data/s06_20210506T1221.yaml
+  status: escape
+20210506T1224:
+  session_count: 9
+  session_idx: 20210506T1224
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_a/noise_LL_135.yaml
+  data_file: data/noise_data/s06/raw_data/s06_20210506T1224.yaml
+  status: completed
+20210506T1227:
+  session_count: 10
+  session_idx: 20210506T1227
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_a/noise_LL_135.yaml
+  data_file: data/noise_data/s06/raw_data/s06_20210506T1227.yaml
+  status: completed
+20210506T1230:
+  session_count: 11
+  session_idx: 20210506T1230
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_a/noise_LL_135.yaml
+  data_file: data/noise_data/s06/raw_data/s06_20210506T1230.yaml
+  status: completed
+20210506T1233:
+  session_count: 12
+  session_idx: 20210506T1233
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_a/noise_LL_135.yaml
+  data_file: data/noise_data/s06/raw_data/s06_20210506T1233.yaml
+  status: completed
+20210506T1235:
+  session_count: 13
+  session_idx: 20210506T1235
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_a/noise_LL_135.yaml
+  data_file: data/noise_data/s06/raw_data/s06_20210506T1235.yaml
+  status: completed
+20210506T1327:
+  session_count: 14
+  session_idx: 20210506T1327
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_s/s06/s06_v2_noise_HH_135.yaml
+  data_file: data/noise_data/s06/raw_data/s06_20210506T1327.yaml
+  status: completed
+20210506T1328:
+  session_count: 15
+  session_idx: 20210506T1328
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_s/s06/s06_v2_noise_HH_135.yaml
+  data_file: data/noise_data/s06/raw_data/s06_20210506T1328.yaml
+  status: completed
+20210506T1330:
+  session_count: 16
+  session_idx: 20210506T1330
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_s/s06/s06_v2_noise_HH_135.yaml
+  data_file: data/noise_data/s06/raw_data/s06_20210506T1330.yaml
+  status: completed
+20210506T1331:
+  session_count: 17
+  session_idx: 20210506T1331
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_s/s06/s06_v2_noise_HH_135.yaml
+  data_file: data/noise_data/s06/raw_data/s06_20210506T1331.yaml
+  status: completed
+20210506T1333:
+  session_count: 18
+  session_idx: 20210506T1333
+  cfg_file: config/exp_config.yaml
+  par_file: config/par_s/s06/s06_v2_noise_HH_135.yaml
+  data_file: data/noise_data/s06/raw_data/s06_20210506T1333.yaml
+  status: completed

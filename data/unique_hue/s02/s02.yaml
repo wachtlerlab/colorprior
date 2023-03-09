@@ -1,0 +1,42 @@
+20220523T1606:
+  session_count: 1
+  session_idx: 20220523T1606
+  cfg_file: config/exp_config.yaml
+  par_file: config/unique_hues.yaml
+  data_file: data/unique_hue/s02/raw_data/s02_20220523T1607.yaml
+  status: completed
+20220523T1611:
+  session_count: 2
+  session_idx: 20220523T1611
+  cfg_file: config/exp_config.yaml
+  par_file: config/unique_hues.yaml
+  data_file: data/unique_hue/s02/raw_data/s02_20220523T1611.yaml
+  status: completed
+20220523T1615:
+  session_count: 3
+  session_idx: 20220523T1615
+  cfg_file: config/exp_config.yaml
+  par_file: config/unique_hues.yaml
+  data_file: data/unique_hue/s02/raw_data/s02_20220523T1615.yaml
+  status: completed
+20220523T1619:
+  session_count: 4
+  session_idx: 20220523T1619
+  cfg_file: config/exp_config.yaml
+  par_file: config/unique_hues.yaml
+  data_file: data/unique_hue/s02/raw_data/s02_20220523T1619.yaml
+  status: completed
+20220523T1624:
+  session_count: 5
+  session_idx: 20220523T1624
+  cfg_file: config/exp_config.yaml
+  par_file: config/unique_hues.yaml
+  data_file: data/unique_hue/s02/raw_data/s02_20220523T1624.yaml
+  status: completed
+20220523T1628:
+  session_count: 6
+  session_idx: 20220523T1628
+  cfg_file: config/exp_config.yaml
+  par_file: config/unique_hues.yaml
+  data_file: data/unique_hue/s02/raw_data/s02_20220523T1628.yaml
+  status: completed

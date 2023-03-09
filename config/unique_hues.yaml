@@ -1,0 +1,19 @@
+
+# start values will be randomly chosen from np.linspoce(guess_val - range, guess_val + range, num, endPoint=True)
+
+#start_val:
+#  - range: 40
+#  - num: 80
+
+red:
+  - guess_val: 0
+  - text: red, neither yellow nor blue
+blue:
+  - guess_val: 110
+  - text: blue, neither red nor green
+'green':
+  - guess_val: 220
+  - text: green, neither blue nor yellow
+'yellow':
+  - guess_val: 315
+  - text: yellow, neither green nor red

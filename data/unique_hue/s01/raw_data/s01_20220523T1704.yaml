@@ -1,0 +1,190 @@
+time: 20220523T1704
+cfg_file: config/exp_config.yaml
+par_file: config/unique_hues.yaml
+monitor_settings_file: config/resources/10bit/monitor_settings_10bit.yaml
+calibration_file: config/resources/10bit/calibration_20210406.json
+subject_isolum_directory: config/subjects/colorspace/10bit
+window_units: deg
+depthBits: 10
+chromaticity: 0.12
+sscale: 2.6
+patch_nmb: 16
+patch_size: 0.75
+bar_size:
+- 12
+- 1.5
+bar_xlim:
+- -6.0
+- 6.0
+bar_ypos: 5.0
+field_size:
+- 3.0
+- 3.0
+standard_xlim:
+- -4.5
+- -1.5
+standard_ylim:
+- -1.5
+- 1.5
+test_xlim:
+- 4.5
+- 1.5
+test_ylim:
+- -1.5
+- 1.5
+trial_nmb: 30
+warmup_nmb: 2
+trial_dur: 0.5
+text_height: 0.8
+red:
+- guess_val: 0
+- text: red, neither orange nor pink
+blue:
+- guess_val: 110
+- text: blue, neither purple nor green
+green:
+- guess_val: 220
+- text: green, neither blue nor yellow
+yellow:
+- guess_val: 315
+- text: yellow, neither green nor orange
+trial_1:
+  sub: s01
+  i_rep: 0.0
+  unique_hue: blue
+  random_start: 96.15384615384616
+  estimate: 138.2
+  RT: 19.15
+trial_2:
+  sub: s01
+  i_rep: 0.0
+  unique_hue: red
+  random_start: -6.666666666666668
+  estimate: 5.0
+  RT: 14.42
+trial_3:
+  sub: s01
+  i_rep: 0.0
+  unique_hue: yellow
+  random_start: 299.1025641025641
+  estimate: 305.4
+  RT: 8.16
+trial_4:
+  sub: s01
+  i_rep: 0.0
+  unique_hue: green
+  random_start: 219.48717948717947
+  estimate: 222.8
+  RT: 8.19
+trial_5:
+  sub: s01
+  i_rep: 1.0
+  unique_hue: yellow
+  random_start: 304.2307692307692
+  estimate: 293.8
+  RT: 10.19
+trial_6:
+  sub: s01
+  i_rep: 1.0
+  unique_hue: blue
+  random_start: 103.33333333333333
+  estimate: 138.0
+  RT: 20.53
+trial_7:
+  sub: s01
+  i_rep: 1.0
+  unique_hue: red
+  random_start: -16.923076923076923
+  estimate: 350.2
+  RT: 18.53
+trial_8:
+  sub: s01
+  i_rep: 1.0
+  unique_hue: green
+  random_start: 207.17948717948718
+  estimate: 220.0
+  RT: 12.3
+trial_9:
+  sub: s01
+  i_rep: 2.0
+  unique_hue: yellow
+  random_start: 312.43589743589746
+  estimate: 293.0
+  RT: 11.84
+trial_10:
+  sub: s01
+  i_rep: 2.0
+  unique_hue: green
+  random_start: 214.35897435897436
+  estimate: 232.0
+  RT: 12.62
+trial_11:
+  sub: s01
+  i_rep: 2.0
+  unique_hue: blue
+  random_start: 97.17948717948718
+  estimate: 138.4
+  RT: 14.8
+trial_12:
+  sub: s01
+  i_rep: 2.0
+  unique_hue: red
+  random_start: 3.5897435897435876
+  estimate: 4.6
+  RT: 21.25
+trial_13:
+  sub: s01
+  i_rep: 3.0
+  unique_hue: yellow
+  random_start: 319.61538461538464
+  estimate: 338.0
+  RT: 11.06
+trial_14:
+  sub: s01
+  i_rep: 3.0
+  unique_hue: red
+  random_start: 16.92307692307692
+  estimate: 349.0
+  RT: 16.13
+trial_15:
+  sub: s01
+  i_rep: 3.0
+  unique_hue: green
+  random_start: 215.3846153846154
+  estimate: 236.8
+  RT: 13.98
+trial_16:
+  sub: s01
+  i_rep: 3.0
+  unique_hue: blue
+  random_start: 114.61538461538461
+  estimate: 135.8
+  RT: 18.97
+trial_17:
+  sub: s01
+  i_rep: 4.0
+  unique_hue: green
+  random_start: 204.1025641025641
+  estimate: 214.0
+  RT: 13.58
+trial_18:
+  sub: s01
+  i_rep: 4.0
+  unique_hue: yellow
+  random_start: 326.79487179487177
+  estimate: 288.8
+  RT: 15.78
+trial_19:
+  sub: s01
+  i_rep: 4.0
+  unique_hue: red
+  random_start: 20.0
+  estimate: 342.0
+  RT: 9.38
+trial_20:
+  sub: s01
+  i_rep: 4.0
+  unique_hue: blue
+  random_start: 127.94871794871794
+  estimate: 134.4
+  RT: 16.37
